@@ -1,6 +1,6 @@
 import React from "react";
 const axios=require('axios');
-const server=`${process.env.API_HOST}/api/account/`;
+const server=`${process.env.REACT_APP_API_HOST}/api/account/`;
 
 class SignUp extends React.Component {
     constructor(props) {
