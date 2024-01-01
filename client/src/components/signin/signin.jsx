@@ -1,6 +1,6 @@
 import React from "react";
 const axios=require('axios');
-const server='http://localhost:8000/api/';
+const server=`${env.API_HOST}/api/`;
 
 class SignIn  extends React.Component {
     constructor(props) {

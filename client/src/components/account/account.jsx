@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './style.css';
-const server='http://localhost:8000/api/account/';
+const server=`${env.API_HOST}/api/account/`;
 class Account extends React.Component {
     constructor(props) {
         super(props);
